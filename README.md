@@ -11,9 +11,9 @@
   <p>
   使用方法
   1、解压元数据area.7z
-  ```java
+```java
     String readString  = FileUtils.readFileToString(new File("area.json"), StandardCharsets.UTF_16LE);
 	List<AreaModel> ls = JSON.parseArray(readString, AreaModel.class);
 	//do it 
-  ```
+```
   </p>
